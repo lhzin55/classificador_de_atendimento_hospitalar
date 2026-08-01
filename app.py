@@ -139,7 +139,7 @@ def processar_triagem():
         # ----------------------------------------------------------------------
 
         payload = {
-            "model": "google/gemma-4-31b-it:free",
+            "model": "nvidia/nemotron-3.5-content-safety:free",
             "messages": [
                 {
                     "role": "system",
