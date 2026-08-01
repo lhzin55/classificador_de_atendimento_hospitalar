@@ -139,7 +139,7 @@ def processar_triagem():
         # ----------------------------------------------------------------------
 
         payload = {
-            "model": "nvidia/nemotron-3.5-content-safety:free",
+            "model": "openrouter/free",
             "messages": [
                 {
                     "role": "system",
